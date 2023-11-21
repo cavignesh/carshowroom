@@ -34,7 +34,7 @@ let navigate = useNavigate()
     let cart = JSON.parse(localStorage.getItem('order')).cart
     let totalPrice = JSON.parse(localStorage.getItem('order')).totalPrice
     let email = JSON.parse(localStorage.getItem('user')).foundedUser.email
-    
+    alert("Purchased Successfully!!");
     let myData = {
       createdBy:userId,
       cart,
