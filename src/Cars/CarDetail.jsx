@@ -8,7 +8,7 @@ export const CarDetail = () => {
   const location = useLocation();
   const idReturned = location.pathname.slice(6);
 
-  let API_URL = `https://carshowroom-backend.onrender.com/v1/car/${idReturned}`;
+  let API_URL = `https://carshowroom-backend.onrender.com/api/v1/car/${idReturned}`;
   let delete_API = `https://carshowroom-backend.onrender.com/api/v1/car/delete/${idReturned}`;
   let AddToCart_API = `https://carshowroom-backend.onrender.com/api/v1/cart`;
 
