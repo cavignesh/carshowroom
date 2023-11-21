@@ -5,7 +5,7 @@ import { Header } from "../Header/Header";
 import { Footer } from '../Footer/Footer';
 
 export const SearchCars = () => {
-    const API_URL = 'http://localhost:10000/api/v1/car/search';
+    const API_URL = 'https://carshowroom-backend.onrender.com/api/v1/car/search';
     const [data, setData] = useState([]);
     const [selectedBrand, setSelectedBrand] = useState('default');
     const [selectedModel, setSelectedModel] = useState('default');

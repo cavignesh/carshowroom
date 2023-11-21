@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Header } from "../Header/Header";
 import { Footer } from '../Footer/Footer';
 
-const API_URL = 'http://localhost:10000/api/v1/car/add';
+const API_URL = 'https://carshowroom-backend.onrender.com/api/v1/car/add';
 
 export const Admin = () => {
   const [errorMessage, setErrorMessage] = useState(null);

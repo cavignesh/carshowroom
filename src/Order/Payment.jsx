@@ -8,7 +8,7 @@ import {  useNavigate  } from 'react-router-dom';
 
 const stripePromise = loadStripe('X');
 
-let API_URL = 'http://localhost:10000/api/v1/order'
+let API_URL = 'https://carshowroom-backend.onrender.com/api/v1/order'
 
 
 const PaymentForm = () => {

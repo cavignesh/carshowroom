@@ -6,7 +6,7 @@ import { NavLink,useNavigate } from "react-router-dom";
 import { Header } from "../Header/Header";
 import { Footer } from '../Footer/Footer';
 
-const API_URL = 'http://localhost:10000/api/v1/auth/signup';
+const API_URL = 'https://carshowroom-backend.onrender.com/api/v1/auth/signup';
 
 
 const USER_REGEX = /^[A-Za-z\s]{3,23}$/;

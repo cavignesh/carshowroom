@@ -5,7 +5,7 @@ import { Footer } from '../Footer/Footer';
 import { NavLink } from "react-router-dom";
 import { CarDetail } from "../Cars/CarDetail";
 
-const API_URL = 'http://localhost:10000/api/v1/car/';
+const API_URL = 'https://carshowroom-backend.onrender.com/api/v1/car/';
 
 export const Home = () => {
   const [data, setData] = useState([]);

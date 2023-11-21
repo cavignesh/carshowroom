@@ -6,7 +6,7 @@ import { Footer } from "../Footer/Footer";
 export const AddCarPics = () => {
   const location = useLocation();
   const idReturned = location.pathname.slice(12);
-  const API_URL = `http://localhost:10000/api/v1/car/images/${idReturned}`;
+  const API_URL = `https://carshowroom-backend.onrender.com/api/v1/car/images/${idReturned}`;
 
   const navigate = useNavigate();
 
