@@ -29,7 +29,7 @@ Welcome to the Car Showroom Website built with the MERN stack. This web applicat
    git clone https://github.com/yourusername/carshowroom_frontend.git
    cd carshowroom_frontend
 
-##Install Dependencies:
+## Install Dependencies:
 npm install
-##Run the Application:
+## Run the Application:
 npm start
