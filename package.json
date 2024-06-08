@@ -38,21 +38,13 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "CI=false react-scripts build"  // Disable CI mode for build
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules": {
-      "react-hooks/exhaustive-deps": "off",
-      "no-unused-vars": "warn",
-      "no-useless-escape": "off",
-      "jsx-a11y/alt-text": "warn",
-      "jsx-a11y/anchor-is-valid": "warn",
-      "eqeqeq": "warn"
-    }
+    ]
   },
   "browserslist": {
     "production": [
