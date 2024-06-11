@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: carshowroom-app
-        image: sujithsai/carshowroom:replaceImageTag
+        image: sujithsai/carshowroom:58
         ports:
         - containerPort: 8080
