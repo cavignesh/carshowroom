@@ -18,4 +18,4 @@ spec:
       - name: carshowroom-app
         image: sujithsai/carshowroom:3
         ports:
-        - containerPort: 5000
+        - containerPort: 3001
