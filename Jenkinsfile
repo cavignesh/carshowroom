@@ -8,7 +8,7 @@ pipeline {
     environment {
         FRONTEND_REPO = 'https://github.com/Sujithsai08/carshowroom_frontend.git'
         FRONTEND_BRANCH = 'main'
-        SONAR_URL = 'http://54.81.223.38:9000' //Replace this url with your sonarqube server url
+        SONAR_URL = 'http://54.80.37.155:9000' //Replace this url with your sonarqube server url
         REGISTRY_CREDENTIALS = credentials('docker-cred')
     }
 
